@@ -25,28 +25,9 @@ This repository presents the design of two stage CMOS operational amplifier impl
   * [References](#references)
 
 ## Abstract
-Operational amplifier is the
-fundamental building block in almost
-every analog and mixed signal processing
-circuits. This paper presents the design of
-a two stage Op-Amp using sub 20 nm
-CMOS technology. This design has a
-differential amplifier stage and an
-additional gain stage, implemented with
-minimum number of transistors, so that
-the area and power consumption is
-optimized. Design and simulation was
-done using cadence EDA software tool.
-The designed Op-Amp is operating with a
-supply voltage of 800 mV and a bias
-current of 10µA.The design attains an
-open loop gain of 88.74dB with unity gain
-bandwidth of 50.7 MHz and a phase
-margin of 57.98 degree with load
-capacitor of 1 pF.
-     
-     Keywords- 2 stage CMOS Operationaloperational amplifier, Stability, Frequency
-     Compensation, Low power.
+Functional enhancer is the crucial structure block in pretty much every simple and contradicting message handling circuits. This paper presents the plan of a two phase Op-Amp utilizing sub 20 nm CMOS innovation. This plan has a differential intensifier stage and an extra addition stage, carried out with least number of semiconductors, so the region and power utilization is upgraded. Plan and reenactment was finished utilizing rhythm EDA programming apparatus. The planned Op-Amp is working with a stock voltage of 800 mV and a predisposition current of 10µA.The plan accomplishes an open circle gain of 88.74dB with solidarity gain transfer speed of 50.7 MHz and a stage edge of 57.98 degree with load capacitor of 1 pF.
+Catchphrases 2 phase CMOS Operational functional intensifier, Stability, Frequency Compensation, Low power.
+
      
  ##  Detailed Explanation
 Nanometer CMOS technologies play a key role for the improvement of the mixedsignal systems, thanks to the high integration level of analog and digital circuits in the same die area. Even if digital signal processing is replacing some analog operations, the mixed-signal systems require anyway an analog front-end able to manage and convert the external signals. This means that the weak analog performance but also the advantages of the ultra-scaled technologies must be managed. In particular, the scaling-down of physical and electrical parameters leads to improvements for digital circuits on one side, while a lot of design issues for analog circuits on the other side. To cope with market requirements but also the analog design limits, advanced lithography techniques, new material like high-K/metal gate (HKMG), and new devices, as finfet or thinfet, have been introduced.
@@ -55,27 +36,7 @@ In this thesis, the main key challenges in ultra-scaled technologies are analyse
 
 
 ## Reference Circuit
-This paper is organized as follows.
-Section 2 presents the two stage
-amplifier. Section 3 reviews the 2 stage
-CMOS Op amp design with compensation
-capacitor. Its specifications are briefly
-clarified. Section 4 presents the simulation
-results of the proposed op-amp and finally
-in Section 5 give my concluding remarks.
-Two-stage OP-AMP mainly consists of a
-cascade of Voltage to Current and Current
-to voltage stages. The first stage consists
-of a differential amplifier converting the
-differential input voltage to differential
-currents. These differential currents are
-applied to a current mirror load recovering
-the differential voltage. The second stage
-consists of common source MOSFET
-converting the second stage input voltage
-to current. This transistor is loaded by a
-current sink load, which converts the
-current to voltage at the output.<br/>
+This paper is organized as follows. Section 2 presents the two stage speaker. Segment 3 audits the 2 phase CMOS Op amp plan with remuneration capacitor. Its determinations are momentarily explained. Segment 4 presents the reenactment aftereffects of the proposed operation amp lastly in Section 5 give my finishing up comments. Two-stage OP-AMP chiefly comprises of an outpouring of Voltage to Current and Current to voltage stages. The primary stage comprises of a differential enhancer changing the differential info voltage over completely to differential flows. These differential flows are applied to an ongoing mirror load recuperating the differential voltage. The subsequent stage comprises of normal source MOSFET changing over the subsequent stage input voltage to current. This semiconductor is stacked by an ongoing sink load, which changes the current over completely to voltage at the result.<br/>
           [Figure 1]<br/>
 ![A general two stage CMOS Op-amp](https://user-images.githubusercontent.com/99643808/155873803-58f3a933-3c0c-4c79-9551-68f02e5ad0d5.png)<br/>
           [Figure 2]<br/>
